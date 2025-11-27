@@ -7,7 +7,6 @@ const ProjectsShowcase = () => {
     <section id="projects" className="px-6 py-12 text-white scroll-mt-24">
       <h2 className="text-4xl font-bold mb-10 text-center">Project Showcase</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Project Card Template */}
         {[
           {
             title: "Skrik Fragments",

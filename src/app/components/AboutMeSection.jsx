@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useTransition } from "react";
-import Image from "next/image";
 import TabHandler from "./TabHandler";
 
 const AboutMeSection = () => {
