@@ -21,7 +21,7 @@ const NavigationBar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-black/70">
-      <div className="flex flex-wrap items-center justify-between mx-auto h-full py-5">
+      <div className="flex flex-wrap items-center justify-between mx-auto h-full py-5 ">
         <span
           className="text-2xl md:text-5xl ml-8 text-white font-bold cursor-pointer"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -60,7 +60,7 @@ const NavigationBar = () => {
 
       {navbarOpen && (
         <div className="md:hidden mt-2 bg-black/15 py-2">
-          <ul className="flex flex-col gap-2 px-4">
+          <ul className="flex flex-col items-center gap-4 py-4 text-lg font-medium">
             {navLinks.map((link) => (
               <li key={link.id}>
                 <button
