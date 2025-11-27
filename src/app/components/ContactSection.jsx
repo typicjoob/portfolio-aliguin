@@ -11,7 +11,7 @@ import {
 const ContactSection = () => {
   return (
     <section id="contact" className="px-4 py-12 text-white scroll-mt-16">
-      <h2 className="text-2xl md:text-4xl font-bold mb-10 text-center">
+      <h2 className="text-4xl font-bold mb-10 text-center">
         Contact Me
       </h2>
 
