@@ -26,7 +26,7 @@ const AboutMeSection = () => {
         </p>
       </div>
 
-      <div className="flex border-b border-gray-700">
+      <div className="flex flex-wrap justify-center md:justify-start gap-2 border-b border-gray-700 -mx-4 px-4 overflow-x-auto">
         {tabs.map((tab, index) => (
           <TabHandler
             key={index}
