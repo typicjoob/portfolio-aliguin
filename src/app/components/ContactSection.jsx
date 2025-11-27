@@ -66,10 +66,6 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-
-      <footer className="mt-16 pt-6 border-t border-gray-700 text-center text-xs md:text-sm text-gray-500">
-        © 2025 Joevany Aliguin. All rights reserved.
-      </footer>
     </section>
   );
 };

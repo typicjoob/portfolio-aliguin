@@ -17,6 +17,9 @@ export default function Home() {
           <ProjectsShowcase />
           <ContactSection />
         </div>
+        <footer className="mt-16 pt-6 border-t border-white text-center text-xs md:text-sm text-white pb-5">
+        © 2025 Joevany Aliguin. All rights reserved.
+      </footer>
       </div>
     </main>
   );

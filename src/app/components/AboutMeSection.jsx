@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useTransition } from "react";
+import React, { useState } from "react";
 import TabHandler from "./TabHandler";
 
 const AboutMeSection = () => {
@@ -10,7 +10,7 @@ const AboutMeSection = () => {
   return (
     <section id="about" className="mt-12 px-4 sm:px-12 scroll-mt-24">
       <div>
-        <h2 className="text-4xl font-bold text-white mb-4 mt-5">About Me</h2>
+        <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-amber-500 via-red-700 to-red-700 mb-4 mt-5">About Me</h2>
         <p className="text-base md:text-lg pb-5">
           I’m a creative person at heart, and I like to approach everything I do
           with care and attention to detail. I tend to be introverted, which
